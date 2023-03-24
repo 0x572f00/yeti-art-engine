@@ -23,36 +23,36 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    // YETI
-    growEditionSizeTo: 1250,
+    // GENESIS
+    growEditionSizeTo: 250,
     layersOrder: [
-      { name: "Background" },
-      { name: "Body" },
-      { name: "Accessory" },
-    ],
-  },
-  {
-    // CURSED
-    growEditionSizeTo: 1900,
-    layersOrder: [
-      { name: "cursed.Background" },
+      { name: "genesis.Background" },
       { name: "Body" },
     ],
   },
   {
     // STONE AGE
-    growEditionSizeTo: 2275,
+    growEditionSizeTo: 625,
     layersOrder: [
       { name: "stoneAge.Background" },
       { name: "Body" },
     ],
   },
   {
-    // GENESIS
+    // CURSED
+    growEditionSizeTo: 1250,
+    layersOrder: [
+      { name: "cursed.Background" },
+      { name: "Body" },
+    ],
+  },
+  {
+    // YETI
     growEditionSizeTo: 2500,
     layersOrder: [
-      { name: "genesis.Background" },
+      { name: "Background" },
       { name: "Body" },
+      { name: "Accessory" },
     ],
   },
 ];
