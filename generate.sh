@@ -27,6 +27,4 @@ done
 
 # Merge the output strips into a final mosaic image
 convert output-{1..50}.png -append -background none -gravity center -extent 5000x5000 preview.png
-
-# Remove the intermediate output strips
 rm output-*.png

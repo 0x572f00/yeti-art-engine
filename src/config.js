@@ -24,7 +24,7 @@ const solanaMetadata = {
 const layerConfigurations = [
   {
     // YETI
-    growEditionSizeTo: 1500,
+    growEditionSizeTo: 1250,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
@@ -33,7 +33,7 @@ const layerConfigurations = [
   },
   {
     // CURSED
-    growEditionSizeTo: 2125,
+    growEditionSizeTo: 1900,
     layersOrder: [
       { name: "cursed.Background" },
       { name: "Body" },
@@ -41,9 +41,17 @@ const layerConfigurations = [
   },
   {
     // STONE AGE
-    growEditionSizeTo: 2500,
+    growEditionSizeTo: 2275,
     layersOrder: [
       { name: "stoneAge.Background" },
+      { name: "Body" },
+    ],
+  },
+  {
+    // GENESIS
+    growEditionSizeTo: 2500,
+    layersOrder: [
+      { name: "genesis.Background" },
       { name: "Body" },
     ],
   },
