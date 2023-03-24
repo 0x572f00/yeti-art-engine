@@ -18,4 +18,4 @@ yarn install
 
 ### credits
 
-based and inspired by [HashLips/hashlips_art_engine](https://github.com/HashLips/hashlips_art_engine)
+code based and inspired by [HashLips/hashlips_art_engine](https://github.com/HashLips/hashlips_art_engine)
