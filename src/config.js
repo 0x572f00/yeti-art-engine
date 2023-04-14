@@ -2,7 +2,7 @@ const basePath = process.cwd();
 const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 const { NETWORK } = require(`${basePath}/constants/network.js`);
 
-const network = NETWORK.eth;
+const network = NETWORK.sol;
 
 // General metadata for Ethereum
 const namePrefix = "WATY";
@@ -14,7 +14,7 @@ const solanaMetadata = {
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   creators: [
     {
-      address: null,
+      address: '5mtPkwDu4KVLnRGiSkEaiouaBJwvEp8813HuBmBpH1Rj',
       share: 100,
     },
   ],
@@ -24,37 +24,57 @@ const solanaMetadata = {
 const layerConfigurations = [
   {
     // GENESIS
-    growEditionSizeTo: 250,
+    growEditionSizeTo: 525,
     layersOrder: [
-      { name: "genesis.Background" },
-      { name: "Body" },
+      { name: "Background.genesis" },
+      { name: "Shadow" },
+      { name: "Body.genesis" },
+      // { name: "Accessory.genesis" },
     ],
   },
+
   {
-    // STONE AGE
-    growEditionSizeTo: 625,
+    // YETI
+    growEditionSizeTo: 975,
     layersOrder: [
-      { name: "stoneAge.Background" },
-      { name: "Body" },
-    ],
-  },
-  {
-    // CURSED
-    growEditionSizeTo: 1250,
-    layersOrder: [
-      { name: "cursed.Background" },
-      { name: "Body" },
+      { name: "Background" },
+      { name: "Shadow" },
+      { name: "Body.surgeGreen" },
+      { name: "Eyes.surgeGreen" },
     ],
   },
   {
     // YETI
-    growEditionSizeTo: 2500,
+    growEditionSizeTo: 1275,
     layersOrder: [
       { name: "Background" },
-      { name: "Body" },
-      { name: "Accessory" },
+      { name: "Shadow" },
+      { name: "Body.oceanBlue" },
     ],
   },
+  {
+    // YETI
+    growEditionSizeTo: 1450,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Shadow" },
+      { name: "Body.purpleDino" },
+      { name: "Eyes.purpleDino" },
+    ],
+  },
+
+  {
+    // YETI
+    growEditionSizeTo: 2499,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Shadow" },
+      { name: "Body.white" },
+      { name: "Eyes.white" },
+      // { name: "Accessory" },
+    ],
+  },
+
 ];
 
 const shuffleLayerConfigurations = false;
@@ -62,8 +82,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 100,
-  height: 100,
+  width: 600,
+  height: 600,
   smoothing: false,
 };
 

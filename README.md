@@ -12,7 +12,7 @@ yarn install
 
 
 ### collection progress
-![](https://github.com/0x572f00/yeti-art-engine/blob/main/preview.png)
+![](https://github.com/0x572f00/yeti-art-engine/blob/main/preview-small.png)
 
 
 
