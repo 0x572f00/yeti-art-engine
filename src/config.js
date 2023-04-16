@@ -28,6 +28,7 @@ const layerConfigurations = [
     layersOrder: [
       { name: "Background.genesis" },
       { name: "Shadow" },
+      { name: "Snow.genesis" },
       { name: "Body.genesis" },
       // { name: "Accessory.genesis" },
     ],
@@ -35,28 +36,65 @@ const layerConfigurations = [
 
   {
     // YETI
-    growEditionSizeTo: 975,
+    growEditionSizeTo: 850,
     layersOrder: [
       { name: "Background" },
       { name: "Shadow" },
+      { name: "Snow" },
       { name: "Body.surgeGreen" },
       { name: "Eyes.surgeGreen" },
     ],
   },
   {
+    growEditionSizeTo: 1175,
+    layersOrder: [
+      { name: "Background.warm" },
+      { name: "Shadow" },
+      { name: "Body.surgeGreen" },
+      { name: "Eyes.surgeGreen" },
+    ],
+  },
+
+  {
     // YETI
-    growEditionSizeTo: 1275,
+    growEditionSizeTo: 1375,
     layersOrder: [
       { name: "Background" },
       { name: "Shadow" },
+      { name: "Snow" },
       { name: "Body.oceanBlue" },
+      { name: "Eyes.oceanBlue" },
     ],
   },
   {
     // YETI
-    growEditionSizeTo: 1450,
+    growEditionSizeTo: 1575,
+    layersOrder: [
+      { name: "Background.warm" },
+      { name: "Shadow" },
+      { name: "Body.oceanBlue" },
+      { name: "Eyes.oceanBlue" },
+    ],
+  },
+
+
+  {
+    // YETI
+    growEditionSizeTo: 1650,
     layersOrder: [
       { name: "Background" },
+      { name: "Shadow" },
+      { name: "Snow" },
+      { name: "Body.purpleDino" },
+      { name: "Eyes.purpleDino" },
+    ],
+  },
+
+  {
+    // YETI
+    growEditionSizeTo: 1750,
+    layersOrder: [
+      { name: "Background.warm" },
       { name: "Shadow" },
       { name: "Body.purpleDino" },
       { name: "Eyes.purpleDino" },
@@ -65,14 +103,26 @@ const layerConfigurations = [
 
   {
     // YETI
-    growEditionSizeTo: 2499,
+    growEditionSizeTo: 2124,
     layersOrder: [
       { name: "Background" },
       { name: "Shadow" },
+      { name: "Snow" },
       { name: "Body.white" },
       { name: "Eyes.white" },
       // { name: "Accessory" },
     ],
+  },
+    {
+      growEditionSizeTo: 2499,
+      layersOrder: [
+        { name: "Background" },
+        { name: "Shadow" },
+        { name: "Snow" },
+        { name: "Body.white" },
+        { name: "Eyes.white" },
+        // { name: "Accessory" },
+      ],
   },
 
 ];
