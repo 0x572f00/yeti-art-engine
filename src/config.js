@@ -24,12 +24,25 @@ const solanaMetadata = {
 const layerConfigurations = [
   {
     // GENESIS
+    growEditionSizeTo: 263,
+    layersOrder: [
+      { name: "Background.genesis" },
+      { name: "Shadow" },
+      { name: "Snow.genesis" },
+      { name: "Fur.arctic" },
+      { name: "Eyes.arctic" },
+      // { name: "Accessory.genesis" },
+    ],
+  },
+  {
+    // GENESIS
     growEditionSizeTo: 525,
     layersOrder: [
       { name: "Background.genesis" },
       { name: "Shadow" },
       { name: "Snow.genesis" },
-      { name: "Body.genesis" },
+      { name: "Fur.greyBlue" },
+      { name: "Eyes.greyBlue" },
       // { name: "Accessory.genesis" },
     ],
   },
@@ -41,7 +54,7 @@ const layerConfigurations = [
       { name: "Background" },
       { name: "Shadow" },
       { name: "Snow" },
-      { name: "Body.surgeGreen" },
+      { name: "Fur.surgeGreen" },
       { name: "Eyes.surgeGreen" },
     ],
   },
@@ -50,7 +63,7 @@ const layerConfigurations = [
     layersOrder: [
       { name: "Background.warm" },
       { name: "Shadow" },
-      { name: "Body.surgeGreen" },
+      { name: "Fur.surgeGreen" },
       { name: "Eyes.surgeGreen" },
     ],
   },
@@ -62,7 +75,7 @@ const layerConfigurations = [
       { name: "Background" },
       { name: "Shadow" },
       { name: "Snow" },
-      { name: "Body.oceanBlue" },
+      { name: "Fur.oceanBlue" },
       { name: "Eyes.oceanBlue" },
     ],
   },
@@ -72,7 +85,7 @@ const layerConfigurations = [
     layersOrder: [
       { name: "Background.warm" },
       { name: "Shadow" },
-      { name: "Body.oceanBlue" },
+      { name: "Fur.oceanBlue" },
       { name: "Eyes.oceanBlue" },
     ],
   },
@@ -85,7 +98,7 @@ const layerConfigurations = [
       { name: "Background" },
       { name: "Shadow" },
       { name: "Snow" },
-      { name: "Body.purpleDino" },
+      { name: "Fur.purpleDino" },
       { name: "Eyes.purpleDino" },
     ],
   },
@@ -96,7 +109,7 @@ const layerConfigurations = [
     layersOrder: [
       { name: "Background.warm" },
       { name: "Shadow" },
-      { name: "Body.purpleDino" },
+      { name: "Fur.purpleDino" },
       { name: "Eyes.purpleDino" },
     ],
   },
@@ -108,7 +121,7 @@ const layerConfigurations = [
       { name: "Background" },
       { name: "Shadow" },
       { name: "Snow" },
-      { name: "Body.white" },
+      { name: "Fur.white" },
       { name: "Eyes.white" },
       // { name: "Accessory" },
     ],
@@ -119,7 +132,7 @@ const layerConfigurations = [
         { name: "Background" },
         { name: "Shadow" },
         { name: "Snow" },
-        { name: "Body.white" },
+        { name: "Fur.white" },
         { name: "Eyes.white" },
         // { name: "Accessory" },
       ],
