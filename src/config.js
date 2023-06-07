@@ -158,7 +158,15 @@ const layerConfigurations = [
       { name: "Eyes.white" },
       { name: "Accessory.fire" },
     ],
-},
+  },
+
+  // WATER
+
+
+  
+  // AIR
+
+  
 
 // dispatch -> 1479
 
