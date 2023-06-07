@@ -22,34 +22,151 @@ const solanaMetadata = {
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
+
   {
-    // GENESIS
-    growEditionSizeTo: 263,
+    // GENESIS 525
+    growEditionSizeTo: 241,
     layersOrder: [
       { name: "Background.genesis" },
       { name: "Snow.genesis" },
       { name: "Shadow" },
-      { name: "Fur.arctic" },
-      { name: "Eyes.arctic" },
-      // { name: "Accessory.genesis" },
+      { name: "Genesis.Fur.white" },
+      { name: "Genesis.Cyber" },
+      { name: "Genesis.Eyes" },
+      { name: "Genesis.Accessory" },
     ],
   },
   {
-    // GENESIS
+    growEditionSizeTo: 482,
+    layersOrder: [
+      { name: "Background.genesis" },
+      { name: "Snow.genesis" },
+      { name: "Shadow" },
+      { name: "Genesis.Fur.blue" },
+      { name: "Genesis.Cyber" },
+      { name: "Genesis.Eyes" },
+      { name: "Genesis.Accessory" },
+    ],
+  },
+
+  // ski 8%
+  {
+    growEditionSizeTo: 503,
+    layersOrder: [
+      { name: "Background.genesis" },
+      { name: "Snow.genesis" },
+      { name: "Genesis.Fur.white" },
+      { name: "Genesis.Cyber" },
+      { name: "Genesis.Eyes" },
+      { name: "Genesis.Accessory" },
+      { name: "Genesis.Ski.white" },
+    ],
+  },
+  {
     growEditionSizeTo: 525,
     layersOrder: [
       { name: "Background.genesis" },
       { name: "Snow.genesis" },
-      { name: "Shadow" },
-      { name: "Fur.greyBlue" },
-      { name: "Eyes.greyBlue" },
-      // { name: "Accessory.genesis" },
+      { name: "Genesis.Fur.blue" },
+      { name: "Genesis.Cyber" },
+      { name: "Genesis.Eyes" },
+      { name: "Genesis.Accessory" },
+      { name: "Genesis.Ski.blue" },
     ],
   },
 
+
+  // {
+  //   // laser
+  //   growEditionSizeTo: 525,
+  //   layersOrder: [
+  //     { name: "Background.genesis" },
+  //     { name: "Snow.genesis" },
+  //     { name: "Shadow" },
+  //     { name: "Genesis.Fur" },
+  //     { name: "Genesis.Cyber" },
+  //     { name: "Genesis.Eyes" },
+  //     { name: "Genesis.Accessory" },
+  //   ],
+  // },
+
+  // end Genesis
+
+  // EARTH 248 - 4 * 62
+
   {
-    // YETI
-    growEditionSizeTo: 850,
+    growEditionSizeTo: 587,
+    layersOrder: [
+      { name: "Background.warm" },
+      { name: "Shadow" },
+      { name: "Earth.Fur.Earth" },
+      { name: "Earth.Leaf.Earth" },
+      { name: "Earth.Flowers.Earth" },
+      { name: "Earth.Lance.Earth" },
+      { name: "Eyes.white" },
+      { name: "Accessory" },
+    ],
+  },
+  {
+    growEditionSizeTo: 649,
+    layersOrder: [
+      { name: "Background.warm" },
+      { name: "Shadow" },
+      { name: "Earth.Fur.Grass" },
+      { name: "Earth.Leaf.Grass" },
+      { name: "Earth.Flowers.Grass" },
+      { name: "Earth.Lance.Grass" },
+      { name: "Eyes.white" },
+      { name: "Accessory" },
+    ],
+  },
+  {
+    growEditionSizeTo: 711,
+    layersOrder: [
+      { name: "Background.warm" },
+      { name: "Shadow" },
+      { name: "Earth.Fur.Polly" },
+      { name: "Earth.Leaf.Polly" },
+      { name: "Earth.Flowers.Polly" },
+      { name: "Earth.Lance.Polly" },
+      { name: "Eyes.white" },
+      { name: "Accessory" },
+    ],
+  },
+  {
+    growEditionSizeTo: 773,
+    layersOrder: [
+      { name: "Background.warm" },
+      { name: "Shadow" },
+      { name: "Earth.Fur.Yellow" },
+      { name: "Earth.Leaf.Yellow" },
+      { name: "Earth.Flowers.Yellow" },
+      { name: "Earth.Lance.Yellow" },
+      { name: "Eyes.white" },
+      { name: "Accessory" },
+    ],
+  },
+
+  // FIRE
+
+    {
+    growEditionSizeTo: 1021,
+    layersOrder: [
+      { name: "Background.warm" },
+      { name: "Shadow" },
+      { name: "Fur.fire" },
+      { name: "Eyes.white" },
+      { name: "Accessory.fire" },
+    ],
+},
+
+// dispatch -> 1479
+
+// colored fur: 492 = 164 * 3
+
+  {
+    // YETI GREEN
+    growEditionSizeTo: 1103,
     layersOrder: [
       { name: "Background" },
       { name: "Snow" },
@@ -57,22 +174,24 @@ const layerConfigurations = [
       { name: "Shadow" },
       { name: "Fur.surgeGreen" },
       { name: "Eyes.surgeGreen" },
+      { name: "Accessory" },
     ],
   },
   {
-    growEditionSizeTo: 1175,
+    growEditionSizeTo: 1185,
     layersOrder: [
       { name: "Background.warm" },
       { name: "Accessory.l0" },
       { name: "Shadow" },
       { name: "Fur.surgeGreen" },
       { name: "Eyes.surgeGreen" },
+      { name: "Accessory" },
     ],
   },
 
   {
-    // YETI
-    growEditionSizeTo: 1375,
+    // YETI BLUE
+    growEditionSizeTo: 1267,
     layersOrder: [
       { name: "Background" },
       { name: "Snow" },
@@ -80,24 +199,25 @@ const layerConfigurations = [
       { name: "Shadow" },
       { name: "Fur.oceanBlue" },
       { name: "Eyes.oceanBlue" },
+      { name: "Accessory" },
     ],
   },
   {
-    // YETI
-    growEditionSizeTo: 1575,
+    growEditionSizeTo: 1349,
     layersOrder: [
       { name: "Background.warm" },
       { name: "Accessory.l0" },
       { name: "Shadow" },
       { name: "Fur.oceanBlue" },
       { name: "Eyes.oceanBlue" },
+      { name: "Accessory" },
     ],
   },
 
 
   {
-    // YETI
-    growEditionSizeTo: 1650,
+    // YETI PURPLE
+    growEditionSizeTo: 1431,
     layersOrder: [
       { name: "Background" },
       { name: "Snow" },
@@ -105,24 +225,29 @@ const layerConfigurations = [
       { name: "Shadow" },
       { name: "Fur.purpleDino" },
       { name: "Eyes.purpleDino" },
+      { name: "Accessory" },
     ],
   },
-
   {
-    // YETI
-    growEditionSizeTo: 1750,
+    growEditionSizeTo: 1513,
     layersOrder: [
       { name: "Background.warm" },
       { name: "Accessory.l0" },
       { name: "Shadow" },
       { name: "Fur.purpleDino" },
       { name: "Eyes.purpleDino" },
+      { name: "Accessory" },
     ],
   },
 
+
+// dispatch -> 987
+
+
   {
     // YETI
-    growEditionSizeTo: 2124,
+    // fur white
+    growEditionSizeTo: 1982,
     layersOrder: [
       { name: "Background" },
       { name: "Snow" },
@@ -130,32 +255,45 @@ const layerConfigurations = [
       { name: "Shadow" },
       { name: "Fur.white" },
       { name: "Eyes.white" },
-      // { name: "Accessory" },
+      { name: "Accessory" },
     ],
   },
   {
-    // YETI laser
-    growEditionSizeTo: 2174,
+    // laser 5%
+    growEditionSizeTo: 2006,
     layersOrder: [
       { name: "Background" },
       { name: "Snow" },
       { name: "Accessory.l0" },
       { name: "Shadow.laser" },
       { name: "Fur.laser" },
-      // { name: "Accessory" },
+      { name: "Accessory" },
     ],
   },
-    {
-      growEditionSizeTo: 2499,
-      layersOrder: [
-        { name: "Background" },
-        { name: "Snow" },
-        { name: "Accessory.l0" },
-        { name: "Shadow" },
-        { name: "Fur.white" },
-        { name: "Eyes.white" },
-        // { name: "Accessory" },
-      ],
+
+  {
+    // 
+    // warm
+    growEditionSizeTo: 2476,
+    layersOrder: [
+      { name: "Background.warm" },
+      { name: "Accessory.l0" },
+      { name: "Shadow" },
+      { name: "Fur.white" },
+      { name: "Eyes.white" },
+      { name: "Accessory" },
+    ],
+  },
+  {
+    // laser 5%
+    growEditionSizeTo: 2500,
+    layersOrder: [
+      { name: "Background.warm" },
+      { name: "Accessory.l0" },
+      { name: "Shadow.laser" },
+      { name: "Fur.laser" },
+      { name: "Accessory" },
+    ],
   },
 
 ];
@@ -163,6 +301,8 @@ const layerConfigurations = [
 const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
+
+// 1200
 
 const format = {
   width: 600,

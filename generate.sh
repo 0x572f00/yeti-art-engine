@@ -4,6 +4,7 @@
 echo "Running build command..."
 yarn run build
 build_exit_code=$?
+# build_exit_code=1
 
 # Only continue if the build command was successful
 if [ $build_exit_code -eq 0 ]; then
